@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{60F78636-A310-4030-9E16-BDBD560D4C19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{60F78636-A310-4030-9E16-BDBD560D4C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{C8DBA4C7-D1AB-4C02-9CF3-788A6027D18F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{C8DBA4C7-D1AB-4C02-9CF3-788A6027D18F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4D5155F6-F7A6-44CA-A3B0-E5221347D877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{4D5155F6-F7A6-44CA-A3B0-E5221347D877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{836530BD-A637-4998-870F-28775AFCC5CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D2E6023F-3095-43E0-9D82-2F53AB23B02D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{4D5155F6-F7A6-44CA-A3B0-E5221347D877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D5155F6-F7A6-44CA-A3B0-E5221347D877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D5155F6-F7A6-44CA-A3B0-E5221347D877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836530BD-A637-4998-870F-28775AFCC5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836530BD-A637-4998-870F-28775AFCC5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836530BD-A637-4998-870F-28775AFCC5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836530BD-A637-4998-870F-28775AFCC5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E6023F-3095-43E0-9D82-2F53AB23B02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E6023F-3095-43E0-9D82-2F53AB23B02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E6023F-3095-43E0-9D82-2F53AB23B02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E6023F-3095-43E0-9D82-2F53AB23B02D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
